@@ -21,6 +21,7 @@ def control_traffic_lights(params):
         GPIO.output(22, 1)
         time.sleep(params['delay_yellow'])
         GPIO.output(22, 0)
+
 if __name__ == '__main__':
         setup()
         params = {
