@@ -1,4 +1,4 @@
-name: traffic light
+name: traffic light rasp
 base: core22
 version: '0.1'
 summary: Raspberry pi traffic light automation
@@ -12,7 +12,7 @@ architectures:
   - build on: arm64
     run-on: arm64
 
- parts:
+parts:
     traffic light: 
       plugin: python
       source: .
@@ -25,5 +25,5 @@ apps:
     plugs:
       - gpio
 
- system-usernames:
+system-usernames:
     snap_daemon: shared
