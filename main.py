@@ -30,11 +30,10 @@ if __name__ == '__main__':
                 'delay_yellow': 3,
         }
 
-
-try:
-        while True:
-                control_traffic_lights(params)
-except  :
-        print("You have exited the program")
-finally:
-        GPIO.cleanup()
+        try:
+                while True:
+                        control_traffic_lights(params)
+        except  :
+                print("You have exited the program")
+        finally:
+                GPIO.cleanup()
