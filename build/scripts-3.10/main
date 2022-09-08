@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!python
 
 from traffic_setup.lights import setup, control_traffic_lights
 import Rpi.GPIO as GPIO
