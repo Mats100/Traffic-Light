@@ -1,4 +1,4 @@
-name: traffic lights rasp
+name: traffic-lights-rasp
 base: core22
 version: '1.0.1'
 summary: Raspberry pi traffic light automation
