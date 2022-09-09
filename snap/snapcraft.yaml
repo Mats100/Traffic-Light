@@ -15,8 +15,8 @@ parts:
   traffic-lights-rasp:
     plugin: python
     source: .
-    python-requirements:
-      - /home/mats/PycharmProjects/trafficrequirements.txt
+#    python-requirements:
+#      - /home/mats/PycharmProjects/trafficrequirements.txt
 apps:
   traffic-light-rasp:
     command: bin/main
