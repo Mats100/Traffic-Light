@@ -8,8 +8,9 @@ description:
 grade: devel
 confinement: strict
 #
-#architectures:
-#  - build-on: [amd64]
+architectures:
+  - build-on: amd64
+    build- for: amd64
 
 parts:
   traffic-lights-rasp:
