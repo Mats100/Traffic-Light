@@ -6,7 +6,7 @@ description:
   Turning on Traffic Lights with Raspberrypi and python packages
 
 grade: devel
-confinement: classic
+confinement: strict
 
 #architectures:
 #  - build-on: arm64
